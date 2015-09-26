@@ -75,12 +75,13 @@
 
 			<footer class="navbar navbar-fixed-bottom">
 				<div class="row-fluid">
-					<div class="col-sm-1">
-						<p class="share-footer-desc"><a href="https://twitter.com/share" class="twitter-share-button" data-text="I just helped someone by clicking a button. Every click can make a difference." data-hashtags="clicks4change">Tweet</a>
+					<div class="col-sm-6">
+						<a href="https://twitter.com/share" class="twitter-share-button" style:'position:relative;' data-text="I just helped someone by clicking a button. Every click can make a difference." data-hashtags="clicks4change">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>  
-					</div>
 
-					<div class="fb-share-button col-sm-5" style="float:left;" data-href="http://localhost/clicksforchange/donated.php#" data-layout="button_count"></div>
+
+					<div class="fb-share-button" style="float:left; margin-right:10px;" data-href="http://localhost/clicksforchange/donated.php#" data-layout="button_count"></div>
+					</div>
 
 					<div class="col-sm-6">
 						<p class="footer-desc"><a href="index.php" class="about">Home</a> | <a href="http://goo.gl/forms/AMYB2ZWrKA" target="_blank" class="suggestion">Suggestions</a></p>
