@@ -52,7 +52,7 @@
 			<div class="row">
 				<div class="col-sm-8 col-sm-offset-2 title-box">
 					<h2 class="about-title">About</h2>
-					<p class="sub-title">I'm Jack Short</p>
+					<p class="sub-title">Jack Short + Fudong Fan</p>
 				</div>
 			</div>
 
@@ -68,7 +68,7 @@
 					<br />
 					Thanks,
 					<br />
-					Jack Short
+					Jack Short + Fudong Fan
 				</div>
 
 		</div>
