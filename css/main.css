@@ -9,10 +9,10 @@ html,body{
 
 body {
 	/*background-color: #/*26ACB4;*/
-	/*background-color: #000000;*/
-	background-image: url("http://cdn29.us1.fansshare.com/images/tumblrbackgrounds/black-white-abstract-pattern-vector-line-drawing-graphic-pen-textile-pattern-vasare-nar-commission-summer-trend-contemporary-fashion-aztec-navajo-triangles-black-and-white-74471252.jpg");
-	/*background: url(../images/stardust_@2X.png) repeat center center fixed; */
-	-webkit-background-size: cover;
+	background-color: #000000;
+/*	background-image: url("http://cdn29.us1.fansshare.com/images/tumblrbackgrounds/black-white-abstract-pattern-vector-line-drawing-graphic-pen-textile-pattern-vasare-nar-commission-summer-trend-contemporary-fashion-aztec-navajo-triangles-black-and-white-74471252.jpg");
+	background: url(../images/stardust_@2X.png) repeat center center fixed; 
+*/	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;	
@@ -28,7 +28,7 @@ body {
 	height: 100%;
 	min-height: 100%;
 	/*background-color: #000000;*/
-	background-color: rgba(0, 0, 0, 0.45)
+	/*background-color: rgba(0, 0, 0, 0.45)*/
 }
 
 .title {
