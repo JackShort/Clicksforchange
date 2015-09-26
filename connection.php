@@ -1,11 +1,10 @@
 <?php 
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$db = "clickforchange_db";
+	$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
-	//create connection
-	$conn = mysql_connect($servername, $username, $password)
-		or die("Could not connect");
-	$selected = mysql_select_db($db);
+	$server = $url["host"];
+	$username = $url["user"];
+	$password = $url["pass"];
+	$db = substr($url["path"], 1);
+
+	$conn = new mysql($server, $username, $password, $db);
 ?>
