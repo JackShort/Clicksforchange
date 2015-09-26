@@ -17,8 +17,22 @@
 		return $votes;
 	}
 
+	function getUrls() {
+		$query = 'SELECT * FROM charities';
+		$result = mysql_query($query);
+
+		$urls = array();
+
+		while ($charity = mysql_fetch_array($result)) {
+			$urls[$charity['Name']] = $charity['url'];
+		}
+
+		return $urls;
+	}
+
 	function printStats() {
 		$votes = getStats();
+		$urls = getUrls();
 		$total = 0;
 
 		foreach ($votes as $key => $value) {
@@ -26,7 +40,7 @@
 		}
 
 		foreach ($votes as $key => $value) {
-			echo "<h3>" . $key . ": <span style='color: #FA3D79;'>" . round($value/$total, 2) * 100 . "%</span></h3>";
+			echo "<h3><a href='" . "$urls[$key]" . "' target='_blank' style='color:#333333;'>" . $key . "</a>: <span style='color: #FA3D79;'>" . round($value/$total, 2) * 100 . "%</span></h3>";
 		}
 	}
 
