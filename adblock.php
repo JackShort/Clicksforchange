@@ -63,6 +63,7 @@
 				<div class="col-sm-10 col-sm-offset-1 donated-menu">
 					This website relies on the ads in order to be able to donate money, and the adblocker you have installed is inferring with doing so.
 					If you would please turn off your adblocker and vote it would be much appreciated. Ads are how this is made possible, so voting without viewing an add is like stealing, from those in need. So, please turn off adblock.
+					Click <a href="index.php">here</a> once adblock is turned off.
 					<br />
 					<br />
 					Thanks,
