@@ -130,7 +130,7 @@
 
 			<div class="row">
 				<div class="col-sm-10 col-sm-offset-1 title-box">
-					<div class="col-sm-6 col-sm-offset-3 text-center">
+					<div class="col-sm-8 col-sm-offset-2 text-center">
 						<h2 class="title">Thanks for donating</h2>
 						<p class="sub-title">to <?php echo $_POST["charity"]; ?></p>
 					</div>
