@@ -47,11 +47,10 @@
 
 			// Function called if AdBlock is not detected
 			function adBlockNotDetected() {
-				alert('AdBlock is not enabled');
 			}
 			// Function called if AdBlock is detected
 			function adBlockDetected() {
-				alert('AdBlock is enabled');
+				window.location.href = 'adblock.php';
 			}
 
 			// Recommended audit because AdBlock lock the file 'blockadblock.js' 
@@ -65,19 +64,20 @@
 				// and|or
 				blockAdBlock.on(true, adBlockDetected);
 				blockAdBlock.on(false, adBlockNotDetected);
+
 				// and|or
 				blockAdBlock.on(true, adBlockDetected).onNotDetected(adBlockNotDetected);
 			}
 
 			// Change the options
-			blockAdBlock.setOption('checkOnLoad', false);
+			blockAdBlock.setOption('checkOnLoad', true);
 			// and|or
 			blockAdBlock.setOption({
 				debug: true,
-				checkOnLoad: false,
+				checkOnLoad: true,
 				resetOnEnd: false
 			});
-			}
+			
 
 			function countdown() {
 				time--;
