@@ -35,14 +35,14 @@ body {
 	color: #FFFFFF;
 	font-family: 'Source Code Pro';
 	font-weight: 100;
-	font-size: 30px;
+	font-size: 4.32vh;
 }
 
 .about-title {
 	color: #FFFFFF;
 	font-family: 'Source Code Pro';
 	font-weight: 300;
-	font-size: 40px;
+	font-size: 5.76vh;
 	text-align: center;
 	vertical-align: middle;
 }
@@ -51,7 +51,7 @@ body {
 	color: #8C8680;
 	font-family: 'Source Code Pro';
 	font-weight: 100;
-	font-size: 30px;
+	font-size: 4.32vh;
 }
 
 h2 {
@@ -63,7 +63,7 @@ h2 {
 }
 
 .money {
-	font-size: 15pt;
+	font-size: 3.024vh;
 	font-family: 'Source Code Pro';
 	font-weight: 900;
 	color: #3CC279;
@@ -101,8 +101,8 @@ h2 {
 	text-transform: uppercase;
 	border: none;
 	padding: 0 !important;
-	height: 50px;
-	font-size: 12pt;
+	height: 7.2vh;
+	font-size: 2.304vh;
 	font-family: 'Source Code Pro';
 	font-weight: 200;
 	color: #FFFFFF;
@@ -121,8 +121,8 @@ h2 {
 	text-transform: uppercase;
 	border: none;
 	padding: 0 !important;
-	height: 50px;
-	font-size: 12pt;
+	height: 7.2vh;
+	font-size: 2.304vh;
 	font-family: 'Source Code Pro';
 	font-weight: 600;
 	color: #FA3D79;
@@ -138,8 +138,8 @@ h2 {
 	background: #FA3D79 !important;
 	border: none;
 	padding: 0 !important;
-	height: 50px;
-	font-size: 12pt;
+	height: 7.2vh;
+	font-size: 2.304vh;
 	font-family: 'Source Code Pro';
 	font-weight: 200;
 	color: #FFF;
@@ -167,20 +167,20 @@ h2 {
 */}
 
 .title-box {
-	height: 125px;
-	margin-bottom: 20px;
+	height: 18vh;
+	margin-bottom: 2.88vh;
 	text-align: center;
 	vertical-align: middle;
 	background-color: black;
-	margin-top: 20px;
+	margin-top: 2.88vh;
 }
 
 .menu {
 	border-style: solid;
 	border-width: 1;
 	border-color: white;
-	padding-bottom: 30px;
-	padding-top: 20px;
+	padding-bottom: 4.32vh;
+	padding-top: 2.88vh;
 	background-color: white;
 }
 
@@ -188,10 +188,10 @@ h2 {
 	border-style: solid;
 	border-width: 1;
 	border-color: white;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding-bottom: 1.44vh;
+	padding-top: 1.44vh;
 	background-color: white;
-	margin-bottom: 20px;
+	margin-bottom: 2.88vh;
 }
 
 .donations-div {
@@ -199,7 +199,7 @@ h2 {
 	border-width: 4px;
 	color: #3CC279;
 	border-color: #3CC279;
-	padding-top: 10px;
+	padding-top: 1.44vh;
 	padding-bottom: 0px;
 	text-align: center;
 	vertical-align: middle;
@@ -210,8 +210,8 @@ h2 {
 	text-transform: uppercase;
 	border: none;
 	padding: 0 !important;
-	height: 50px;
-	font-size: 12pt;
+	height: 7.2vh;
+	font-size: 2.304vh;
 	font-family: 'Source Code Pro';
 	font-weight: 200;
 	color: #FFFFFF;
@@ -223,7 +223,7 @@ h2 {
 	background-color: #000 !important;
 	color: #FFF;
 	border-color: #FA3D79;
-	font-size: 12pt;
+	font-size: 2.304vh;
 	font-family: 'Source Code Pro';
 	font-weight: 200;
 }
@@ -245,21 +245,21 @@ footer {
 .about {
 	color: #FFFFFF !important;
 	font-family: 'Source Code Pro';
-	font-size: 12px;
+	font-size: 1.728vh;
 }
 
 .suggestion {
 	color: #FFFFFF !important;
 	font-family: 'Source Code Pro';
-	font-size: 12px;
+	font-size: 1.728vh;
 }
 
 .footer-desc {
-	margin-right: 10px;
+	margin-right: 1.44vh;
 	text-align: right;
 	color: #FFFFFF !important;
 	font-family: 'Source Code Pro';
-	font-size: 12px;
+	font-size: 1.728vh;
 }
 
 .about-footer {
@@ -272,21 +272,21 @@ footer {
 }
 
 .share-footer-desc {
-	margin-right: 10px;
+	margin-right: 1.44vh;
 	text-align: left;
 	color: #FFFFFF !important;
 	font-family: 'Source Code Pro';
-	font-size: 12px;
+	font-size: 1.728vh;
 }
 
 .top-buffer {
-	margin-top: 10px;
+	margin-top: 1.44vh;
 }
 
 .top-large-buffer {
-	margin-top: 20px;
+	margin-top: 2.88vh;
 }
 
 .bottom-buffer {
-	padding-bottom: 10px;
+	padding-bottom: 1.44vh;
 }
