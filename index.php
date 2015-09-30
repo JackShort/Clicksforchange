@@ -7,6 +7,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="google-site-verification" content="po695k3_hlt1Ie5DYApFyaUox2VwZMBGYgUDgwbPn5M" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Clicks For Change</title>
 
