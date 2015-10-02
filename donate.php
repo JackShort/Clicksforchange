@@ -58,7 +58,6 @@
 	</head>
 
 	<body>
-	<script type='text/javascript' src='//go.oclasrv.com/apu.php?zoneid=409031'></script>
 
 	<!-- Facebook shit -->
 		<div id="fb-root"></div>
