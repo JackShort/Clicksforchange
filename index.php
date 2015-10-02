@@ -102,11 +102,12 @@
 		  ga('create', 'UA-68266810-1', 'auto');
 		  ga('send', 'pageview');
 		</script>
+		
+		<script type="text/javascript" src="//go.oclasrv.com/apu.php?zoneid=409031"></script>
 	</head>
 
 	<body style="">
 
-		<script type="text/javascript" src="//go.oclasrv.com/apu.php?zoneid=409031"></script>
 
 		<div class="container-fluid bottom-buffer full-screen">
 
