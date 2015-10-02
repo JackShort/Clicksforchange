@@ -52,7 +52,7 @@
 			$total += $value;
 		}
 
-		$totalMoney = (($total * 3) / 1000) * 5.56;
+		$totalMoney = (($total) / 1000) * 7.56;
 		echo "~ $" . number_format($totalMoney, 2) . " raised";
 	}
 
@@ -110,7 +110,7 @@
 
 		<!-- Source Code Pro Font -->
 		<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-		
+
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
