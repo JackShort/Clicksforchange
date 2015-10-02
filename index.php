@@ -105,7 +105,6 @@
 	</head>
 
 	<body>
-	<script src="//go.padstm.com/?id=409283"></script>
 
 		<div class="container-fluid bottom-buffer full-screen">
 
