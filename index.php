@@ -105,6 +105,8 @@
 	</head>
 
 	<body>
+		<script type='text/javascript' src='//eclkmpbn.com/adServe/banners?tid=66919_105798_0&type=footer&size=468x60'></script>
+		<script type='text/javascript' src='//eclkmpbn.com/adServe/banners?tid=66919_105798_3&type=footer&size=728x90'></script>
 
 		<div class="container-fluid bottom-buffer full-screen">
 
