@@ -52,7 +52,7 @@
 			$total += $value;
 		}
 
-		$totalMoney = (($total) / 1000) * 7.56;
+		$totalMoney = (($total) / 1000) * 1.56 * 3;
 		echo "~ $" . number_format($totalMoney, 2) . " raised";
 	}
 
