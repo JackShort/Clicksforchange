@@ -107,16 +107,6 @@
 		  ga('create', 'UA-68266810-1', 'auto');
 		  ga('send', 'pageview');
 		</script>
-		
-		<script type="text/javascript">
-		  amzn_assoc_ad_type = "link_enhancement_widget";
-		  amzn_assoc_tracking_id = "clicks00-20";
-		  amzn_assoc_linkid = "YVASLEE6IZEUJBGZ";
-		  amzn_assoc_placement = "";
-		  amzn_assoc_marketplace = "amazon";
-		  amzn_assoc_region = "US";
-		</script>
-		<script src="//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US"></script>
 	</head>
 
 	<body>
@@ -166,12 +156,11 @@
 				</div>
 			</div>
 
-<!-- 			<div class="row bottom-banner-mobile">
+			<div class="row bottom-banner-mobile">
 				<div class="col-sm-12 text-center">  
 					<iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=clicks00-20&o=1&p=291&l=ur1&category=home&banner=1GKXDDAPYNK4EFM00JR2&f=ifr&linkID=ON47OYPVOE73VPYW" width="290" height="100" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
 				</div>
 			</div>
- -->
 
 		</div>
 
