@@ -86,7 +86,12 @@
 
 				if (time == -1) {
 					window.clearInterval(timer);
-					window.location.href = 'donate.php';
+
+					document.getElementById("timer-div").style.visibility = "hidden";
+					document.getElementById("thanks").style.visibility = "visible";
+					document.getElementById("thanks").innerHTML = "Thanks for waiting";
+					document.getElementById("continue-button-div").style.visibility = "visible";
+					document.getElementById("continue-button-div").innerHTML = '<div id="continue-button" class="col-sm-4 cojkl-sm-offset-4 text-center center"><button class="donate-again btn-block hvr-wobble-top" onclick="window.location.href=`donate.php`">Continue</button></div>';
 				} else{
 					document.getElementById('skip').innerHTML = time;
 				}
@@ -105,26 +110,51 @@
 	</head>
 
 	<body>
-	<div class="container-fluid bottom-buffer full-screen">
+		<div class="container-fluid bottom-buffer full-screen">
+			<div style="position:absolute;">
+				<iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=clicks00-20&o=1&p=14&l=ur1&category=amazonhomepage&f=ifr&linkID=VSHZLGQXDA66IAYF" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+			</div>
 
-			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3 text-center">
-					<h2>Your Patience</h2>
+			<div style="position:absolute; float:right; right:0px;">
+				<iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=clicks00-20&o=1&p=14&l=ur1&category=topratedproducts&banner=11X1Y6FZ67GYSYVDDB02&f=ifr&linkID=IYQSP4CTKMRGUTPR" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+			</div>
+
+			<div id="timer-div">
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3 text-center">
+						<h2 id="thanks">Your Patience</h2>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3 text-center" id="continue-button-div">
+						<p class="timer" id="skip">5</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3 text-center">
+						<h2>is your donation</h2>
+					</div>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3 text-center">
-					<p class="timer" id="skip">5</p>
+				<div class="col-sm-12 text-center">  
+					<script type='text/javascript'>
+					 amzn_assoc_ad_type = 'banner';
+					 amzn_assoc_tracking_id = 'clicks00-20';
+					 amzn_assoc_marketplace = 'amazon';
+					 amzn_assoc_region = 'US';
+					 amzn_assoc_placement = 'assoc_banner_placement_default';
+					 amzn_assoc_linkid = 'GZRZTDEH63S2ZPZR';
+					 amzn_assoc_campaigns = 'hotnewreleases';
+					 amzn_assoc_banner_type = 'category';
+					 amzn_assoc_isresponsive = 'true';
+					</script>
+					<script src='//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1'></script>
 				</div>
 			</div>
-
-			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3 text-center">
-					<h2>is your donation</h2>
-				</div>
-			</div>
-
 		</div>
 
 		<?php

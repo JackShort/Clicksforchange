@@ -7,6 +7,12 @@ html,body{
 	height:100%;
 }
 
+.center {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 body {
 	/*background-color: #/*26ACB4;*/
 	background-color: #222222;
@@ -240,6 +246,18 @@ footer {
     height: 2.5em;
     margin-top: -2.5em;
     bottom: 0;
+}
+
+.banner {
+	clear: both;
+    position: relative;
+    z-index: 10;
+    height: 2.5em;
+    margin-top: -2.5em;
+    bottom: 0;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about {
