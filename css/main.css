@@ -29,14 +29,17 @@ body {
     .side-banner {
         display: none !important;
     }
+
+   	.bottom-banner {
+   		display: none !important;
+   	}
 }
 
-@media screen and (max-width: 800px) {
-    .bottom-banner {
-        display: relative !important;
-    }
+@media screen and (min-width: 800px) {
+   	.bottom-banner-mobile {
+   		display: none !important;
+   	}
 }
-
 
 /*.container {
 	background-color: #26ACB4;

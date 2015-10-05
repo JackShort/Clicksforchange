@@ -141,21 +141,24 @@
 
 			<div class="row bottom-banner">
 				<div class="col-sm-12 text-center">  
-					<div class="alignleft">  
-<script type='text/javascript'>
- amzn_assoc_ad_type = 'banner';
- amzn_assoc_tracking_id = 'clicks00-20';
- amzn_assoc_marketplace = 'amazon';
- amzn_assoc_region = 'US';
- amzn_assoc_placement = 'assoc_banner_placement_default';
- amzn_assoc_linkid = 'XB44XSTTV35J7ETV';
- amzn_assoc_campaigns = 'home';
- amzn_assoc_banner_type = 'category';
- amzn_assoc_isresponsive = 'true';
-</script>
-<script src='//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1'></script>
-</div>
+					<script type='text/javascript'>
+					 amzn_assoc_ad_type = 'banner';
+					 amzn_assoc_tracking_id = 'clicks00-20';
+					 amzn_assoc_marketplace = 'amazon';
+					 amzn_assoc_region = 'US';
+					 amzn_assoc_placement = 'assoc_banner_placement_default';
+					 amzn_assoc_linkid = 'GZRZTDEH63S2ZPZR';
+					 amzn_assoc_campaigns = 'hotnewreleases';
+					 amzn_assoc_banner_type = 'category';
+					 amzn_assoc_isresponsive = 'true';
+					</script>
+					<script src='//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1'></script>
+				</div>
+			</div>
 
+			<div class="row bottom-banner-mobile">
+				<div class="col-sm-12 text-center">  
+					<iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=clicks00-20&o=1&p=26&l=ur1&category=home&banner=0PTT4YN9AW5D0G42FV82&f=ifr&linkID=DFDUBIEPZYCGN26N" width="468" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
 				</div>
 			</div>
 
