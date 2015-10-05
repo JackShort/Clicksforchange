@@ -168,5 +168,8 @@
 			$_SESSION["canDonate"] = True;
 		?>
 
+
+		<script type="text/javascript" src="http://ir-na.amazon-adsystem.com/s/impression-counter?tag=clicks00-20&o=1"></script>
+		<noscript><img src="http://ir-na.amazon-adsystem.com/s/noscript?tag=clicks00-20" alt="" /></noscript>
 	</body>
 </html>
