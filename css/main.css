@@ -25,6 +25,19 @@ body {
 	height: 100%;
 }
 
+@media screen and (max-width: 800px) {
+    .side-banner {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .bottom-banner {
+        display: relative !important;
+    }
+}
+
+
 /*.container {
 	background-color: #26ACB4;
 }
@@ -295,6 +308,11 @@ footer {
 	color: #FFFFFF !important;
 	font-family: 'Source Code Pro';
 	font-size: 1.728vh;
+}
+
+.side-banner {
+	width: 25.93vh;
+	height: 86.4vh;
 }
 
 .top-buffer {
