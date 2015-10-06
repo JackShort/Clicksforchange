@@ -40,7 +40,7 @@
 		}
 
 		foreach ($votes as $key => $value) {
-			echo "<h3><a href='" . "$urls[$key]" . "' target='_blank' style='color:#333333;'>" . $key . "</a>: <span style='color: #FA3D79;'>" . round($value/$total, 2) * 100 . "%</span></h3>";
+			echo "<h3><a href='" . "$urls[$key]" . "' target='_blank' style='color:#333333;'>" . $key . "</a>: <span style='color: #FA3D79;'>" . round($value/$total, 2) * 100 . "% of people donated</span></h3>";
 		}
 	}
 
@@ -53,7 +53,7 @@
 		}
 
 		$totalMoney = (($total) / 1000) * 1.56 * 3;
-		echo "~ $" . number_format($totalMoney, 2) . " raised";
+		echo $total . "total votes: ~ $" . number_format($totalMoney, 2) . " raised";
 	}
 
 	function restyle_text($input){
