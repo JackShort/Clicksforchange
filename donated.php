@@ -156,9 +156,9 @@
 					</div>
 
 					<div class="row">
-						<div class="col-sm-4 col-sm-offset-4 text-center">
+						<div class="col-sm-6 col-sm-offset-4 text-center">
 							<div class="donations-div">
-								<p class="money"><?php printTotal() ?></p>
+								<p class="money"> Total Donated: <?php printTotal() ?></p>
 							</div>
 						</div>
 					</div>
