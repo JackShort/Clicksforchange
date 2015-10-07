@@ -135,17 +135,9 @@
 
 	<body>
 		<div class="container-fluid bottom-buffer full-screen">
-<!-- 			<div style="position:absolute;" class="side-banner">
-				<iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=clicks00-20&o=1&p=14&l=ur1&category=amazonhomepage&f=ifr&linkID=VSHZLGQXDA66IAYF" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
-			</div>
-
-			<div style="position:absolute; float:right; right:0px;" class="side-banner">
-				<iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=clicks00-20&o=1&p=14&l=ur1&category=topratedproducts&banner=11X1Y6FZ67GYSYVDDB02&f=ifr&linkID=IYQSP4CTKMRGUTPR" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
-			</div>
- -->
 			<div id="timer-div">
 				<div class="row">
-					<div class="col-sm-8 col-sm-offset-2 text-center">
+					<div class="col-sm-6 col-sm-offset-3 text-center">
 						<h2 id="thanks">Your Patience</h2>
 					</div>
 				</div>
@@ -162,38 +154,11 @@
 					</div>
 				</div>
 			</div>
-
-<!-- 			<div class="row bottom-banner">
-				<div class="col-sm-12 text-center">  
-					<script type='text/javascript'>
-					 amzn_assoc_ad_type = 'banner';
-					 amzn_assoc_tracking_id = 'clicks00-20';
-					 amzn_assoc_marketplace = 'amazon';
-					 amzn_assoc_region = 'US';
-					 amzn_assoc_placement = 'assoc_banner_placement_default';
-					 amzn_assoc_linkid = 'GZRZTDEH63S2ZPZR';
-					 amzn_assoc_campaigns = 'hotnewreleases';
-					 amzn_assoc_banner_type = 'category';
-					 amzn_assoc_isresponsive = 'true';
-					</script>
-					<script src='//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1'></script>
-				</div>
-			</div>
-
-			<div class="row bottom-banner-mobile">
-				<div class="col-sm-12 text-center">  
-					<iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=clicks00-20&o=1&p=291&l=ur1&category=home&banner=1GKXDDAPYNK4EFM00JR2&f=ifr&linkID=ON47OYPVOE73VPYW" width="290" height="100" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
-				</div>
-			</div>
- -->
 		</div>
 
 		<?php
 			$_SESSION["canDonate"] = True;
 		?>
 
-
-		<! -- <script type="text/javascript" src="http://ir-na.amazon-adsystem.com/s/impression-counter?tag=clicks00-20&o=1"></script> -->
-		<!-- <noscript><img src="http://ir-na.amazon-adsystem.com/s/noscript?tag=clicks00-20" alt="" /></noscript> -->
 	</body>
 </html>
