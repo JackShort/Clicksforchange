@@ -53,7 +53,7 @@
 		}
 
 		$totalMoney = (($total) / 1000) * 1.56 * 3;
-		echo "~ $" . number_format($totalMoney, 2) . " raised";
+		echo "~ $" . number_format($totalMoney, 2);
 	}
 
 	function restyle_text($input){
@@ -156,7 +156,7 @@
 					</div>
 
 					<div class="row">
-						<div class="col-sm-6 col-sm-offset-4 text-center">
+						<div class="col-sm-6 col-sm-offset-3 text-center">
 							<div class="donations-div">
 								<p class="money"> Total Donated: <?php printTotal() ?></p>
 							</div>
