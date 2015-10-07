@@ -1,7 +1,10 @@
 <?php 
 	//start session
 	session_start();
-	$_SESSION["donated"] = False;
+
+	if ($_SESSION["donated"] == True) {
+		header('Location: about.php');
+	}
 ?>
 <!DOCTYPE html>
 <html lang="en">
