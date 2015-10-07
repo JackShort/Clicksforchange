@@ -108,29 +108,17 @@
 		  ga('send', 'pageview');
 		</script>
 
-		<!-- PopAds.net Popunder Code for www.clicks4change.com -->
-		<script type="text/javascript">
-		  var _pop = _pop || [];
-		  _pop.push(['siteId', 887947]);
-		  _pop.push(['minBid', 0.000000]);
-		  _pop.push(['popundersPerIP', 0]);
-		  _pop.push(['delayBetween', 0]);
-		  _pop.push(['default', false]);
-		  _pop.push(['defaultPerDay', 0]);
-		  _pop.push(['topmostLayer', false]);
-		  (function() {
-		    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
-		    var s = document.getElementsByTagName('script')[0]; 
-		    pa.src = '//c1.popads.net/pop.js';
-		    pa.onerror = function() {
-		      var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
-		      sa.src = '//c2.popads.net/pop.js';
-		      s.parentNode.insertBefore(sa, s);
-		    };
-		    s.parentNode.insertBefore(pa, s);
-		  })();
+		<script type="text/javascript"><!--
+			ps_aid = 47309;
+			ps_website_id = 46363;
+			ps_ad_cap = 0;
+			ps_ad_open = 2;
+			ps_ad_type = 3;
+			ps_page_url = document.location;
+			-->
 		</script>
-		<!-- PopAds.net Popunder Code End -->
+		<script type="text/javascript" src="http://www.edomz.net/popup.js"></script>
+		<noscript><a href="http://www.edomz.com">online marketing</a></noscript>
 	</head>
 
 	<body>
