@@ -110,7 +110,7 @@
 		  ga('create', 'UA-68266810-1', 'auto');
 		  ga('send', 'pageview');
 		</script>
-
+		
 		<script type="text/javascript"><!--
 			ps_aid = 47309;
 			ps_website_id = 46363;
@@ -122,6 +122,7 @@
 		</script>
 		<script type="text/javascript" src="http://www.edomz.net/popup.js"></script>
 		<noscript><a href="http://www.edomz.com">online marketing</a></noscript>
+
 	</head>
 
 	<body>
