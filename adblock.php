@@ -1,3 +1,13 @@
+<?php 
+	session_start();
+
+	if (($_SESSION["atAdblock"] == True) && (isset($_SESSION["atAdblock"]))) {
+		$_SESSION["atAdblock"] == False;
+		header('Location: index.php');
+	}
+
+	$_SESSION["atAdblock"] = True;
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>

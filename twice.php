@@ -1,10 +1,3 @@
-<?php 
-	if ($_SESSION["cameFromIndex"] != True) {
-		header('Location: index.php');
-	}
-
-	$_SESSION["cameFromIndex"] = False;
- ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>

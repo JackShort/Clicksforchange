@@ -3,7 +3,6 @@
 	session_start();
 
 	if ($_SESSION["donated"] == True) {
-		$_SESSION["cameFromIndex"] = True;
 		header('Location: twice.php');
 	}
 ?>
