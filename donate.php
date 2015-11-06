@@ -6,7 +6,7 @@
 	}
 
 	//uncomment this shit
-	$_SESSION["canDonate"] = False;
+	// $_SESSION["canDonate"] = False;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -72,44 +72,46 @@
 
 		<div class="container-fluid bottom-buffer full-screen">
 
-			<div class="row">
-				<div class="col-sm-10 col-sm-offset-1 title-box">
-					<div class="col-sm-4 col-sm-offset-4 text-center">
-						<h2 class="title">Choose a charity</h2>
-						<p class="sub-title">to help</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-sm-10 col-sm-offset-1 menu">
-					<div class="col-sm-6 col-sm-offset-3 text-center">
-						<form action="donated.php" method="post" id="form">
-							<input type="hidden" value="" name='charity' id="charityInput">
-							<?php
-								include 'connection.php';
-
-								$query = 'SELECT * FROM charities';
-								$result = mysql_query($query);
-
-								while ($charity = mysql_fetch_array($result)) {
-									echo "<div class='row box top-buffer'>";
-										echo "<button type='button' onclick='choose(`" . $charity["Name"] . "`)' class='ghost-button btn-block' name='charity' id='" . $charity["Name"] . "' value='" . $charity["Name"] . "'><span>" . $charity["Name"] . "</span></button>";
-									echo "</div>";
-								}
-							?>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-sm-2 col-sm-offset-5 text-center">
-						<div class="row box-green top-large-buffer">
-							<button type="button" onclick="submitForm()" class="donate-button btn-block hvr-underline-reveal hvr-pop"><span>Donate</span> <span class='glyphicon glyphicon-heart'></span></button>
+			<div class="form-container">
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1 title-box">
+						<div class="col-sm-4 col-sm-offset-4 text-center">
+							<h2 class="title">Choose a charity</h2>
+							<p class="sub-title">to help</p>
 						</div>
+					</div>
 				</div>
-					</form>
 
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1 menu">
+						<div class="col-sm-6 col-sm-offset-3 text-center">
+							<form action="donated.php" method="post" id="form">
+								<input type="hidden" value="" name='charity' id="charityInput">
+								<?php
+									include 'connection.php';
+
+									$query = 'SELECT * FROM charities';
+									$result = mysql_query($query);
+
+									while ($charity = mysql_fetch_array($result)) {
+										echo "<div class='row box top-buffer'>";
+											echo "<button type='button' onclick='choose(`" . $charity["Name"] . "`)' class='ghost-button btn-block' name='charity' id='" . $charity["Name"] . "' value='" . $charity["Name"] . "'><span>" . $charity["Name"] . "</span></button>";
+										echo "</div>";
+									}
+								?>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-2 col-sm-offset-5 text-center">
+							<div class="row box-green top-large-buffer">
+								<button type="button" onclick="submitForm()" class="donate-button btn-block hvr-underline-reveal hvr-pop"><span>Donate</span> <span class='glyphicon glyphicon-heart'></span></button>
+							</div>
+					</div>
+						</form>
+
+				</div>
 			</div>
 
 		</div>
