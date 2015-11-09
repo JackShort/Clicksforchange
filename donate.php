@@ -86,7 +86,6 @@
 					<div class="col-sm-10 col-sm-offset-1 menu">
 						<div class="col-sm-6 col-sm-offset-3 text-center">
 							<form action="donated.php" method="post" id="form">
-								<input type="hidden" value="" name='charity' id="charityInput">
 								<?php
 									include 'connection.php';
 
@@ -94,8 +93,8 @@
 									$result = mysql_query($query);
 
 									while ($charity = mysql_fetch_array($result)) {
-										echo "<div class='row box top-buffer'>";
-											echo "<button type='button' onclick='choose(`" . $charity["Name"] . "`)' class='ghost-button btn-block' name='charity' id='" . $charity["Name"] . "' value='" . $charity["Name"] . "'><span>" . $charity["Name"] . "</span></button>";
+										echo "<div class='row top-buffer'>";
+											// echo "<input type='radio' class='' name='charity' id='" . $charity["Name"] . "' value='" . $charity["Name"] . "'> " . $charity["Name"] . "";
 										echo "</div>";
 									}
 								?>
