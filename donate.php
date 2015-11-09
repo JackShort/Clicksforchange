@@ -1,4 +1,4 @@
-<?php 
+<?jphp 
 	session_start();
 
 	if ($_SESSION["canDonate"] != True) {
