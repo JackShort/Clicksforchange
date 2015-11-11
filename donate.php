@@ -85,17 +85,17 @@
 				<div class="row">
 					<div class="col-sm-10 col-sm-offset-1 menu">
 						<div class="col-sm-6 col-sm-offset-3 text-center">
-							<form action="donated.php" method="post" id="form">
+							<!-- <form action="donated.php" method="post" id="form"> -->
 								<?php
-									include 'connection.php';
+									// include 'connection.php';
 
-									$query = 'SELECT * FROM charities';
-									$result = mysql_query($query);
+									// $query = 'SELECT * FROM charities';
+									// $result = mysql_query($query);
 
-									while ($charity = mysql_fetch_array($result)) {
-										echo "<div class='row top-buffer'>";
+									// while ($charity = mysql_fetch_array($result)) {
+									// 	echo "<div class='row top-buffer'>";
 											// echo "<input type='radio' class='' name='charity' id='" . $charity["Name"] . "' value='" . $charity["Name"] . "'/>" . $charity["Name"] . "";
-										echo "</div>";
+										// echo "</div>";
 									}
 								?>
 						</div>
@@ -108,7 +108,7 @@
 								<button type="button" onclick="submitForm()" class="donate-button btn-block hvr-underline-reveal hvr-pop"><span>Donate</span> <span class='glyphicon glyphicon-heart'></span></button>
 							</div>
 					</div>
-						</form>
+						<!-- </form> -->
 
 				</div>
 			</div>
