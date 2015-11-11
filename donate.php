@@ -94,7 +94,7 @@
 
 									while ($charity = mysql_fetch_array($result)) {
 										echo "<div class='row top-buffer'>";
-											echo "<input type='radio' onclick='choose(`" . $charity["Name"] . "`)' class='ghost-button btn-block' name='charity' id='" . $charity["Name"] . "' value='" . $charity["Name"] . "'><span>" . $charity["Name"] . "</span></button>";
+											// echo "<input type='radio' class='' name='charity' id='" . $charity["Name"] . "' value='" . $charity["Name"] . "'/>" . $charity["Name"] . "";
 										echo "</div>";
 									}
 								?>
