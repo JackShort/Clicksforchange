@@ -4,6 +4,7 @@
 
 	if ($_SESSION["donated"] == True) {
 		header('Location: twice.php');
+		echo "";
 	}
 ?>
 <!DOCTYPE html>
