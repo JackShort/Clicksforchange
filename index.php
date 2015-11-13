@@ -154,7 +154,7 @@
 
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3 text-center">
-						<h2>is your doion</h2>
+						<h2>is your donation</h2>
 					</div>
 				</div>
 			</div>
