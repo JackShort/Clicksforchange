@@ -1,3 +1,13 @@
+<?php 
+	session_start();
+
+	if ($_SESSION["canDonate"] != True) {
+		header('Location: index.php');
+	}
+
+	//uncomment this shit
+	// $_SESSION["canDonate"] = False;
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -76,6 +86,18 @@
 					<div class="col-sm-10 col-sm-offset-1 menu">
 						<div class="col-sm-6 col-sm-offset-3 text-center">
 							<form action="donated.php" method="post" id="form">
+								<?php
+									include 'connection.php';
+
+									$query = 'SELECT * FROM charities';
+									$result = mysql_query($query);
+
+									while ($charity = mysql_fetch_array($result)) {
+										echo "<div class='row top-buffer'>";
+											echo "<input type='radio' class='' name='charity' id='" . $charity["Name"] . "' value='" . $charity["Name"] . "'/>" . $charity["Name"] . "";
+										echo "</div>";
+									}
+								?>
 						</div>
 					</div>
 				</div>
