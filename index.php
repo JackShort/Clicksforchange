@@ -3,18 +3,16 @@
 	session_start();
 
 	if ($_SESSION["donated"] == True) {
-		header('Location: twice.php');
+		// header('Location: twice.php');
 	}
 ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="propeller" content="f8f24efd687cf940f21c5b393da0e13b" />
-		<meta name="google-site-verification" content="po695k3_hlt1Ie5DYApFyaUox2VwZMBGYgUDgwbPn5M" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Clicks For Change</title>
-
+		
 		<link rel="shortcut icon" href="../images/favicon.ico">
 		<link rel="apple-touch-icon" href="../images/favicon.ico">
 
@@ -32,7 +30,6 @@
 
 		<!-- Main Javascript -->
 		<script src="scripts/main.js"></script>
-		<script src="scripts/blockadblock.js"></script>
 
 		<!-- Main stylesheeet -->
 		<link rel="stylesheet" href="css/main.css">
@@ -47,61 +44,6 @@
 		<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
 
 		<script>
-			var time = 5;
-			var timer = window.setInterval(function() {countdown()}, 1000);
-
-			// Function called if AdBlock is not detected
-			function adBlockNotDetected() {
-			}
-			// Function called if AdBlock is detected
-			function adBlockDetected() {
-				window.location.href = 'adblock.php';
-			}
-
-			// Recommended audit because AdBlock lock the file 'blockadblock.js' 
-			// If the file is not called, the variable does not exist 'blockAdBlock'
-			// This means that AdBlock is present
-			if(typeof blockAdBlock === 'undefined') {
-				adBlockDetected();
-			} else {
-				blockAdBlock.onDetected(adBlockDetected);
-				blockAdBlock.onNotDetected(adBlockNotDetected);
-				// and|or
-				blockAdBlock.on(true, adBlockDetected);
-				blockAdBlock.on(false, adBlockNotDetected);
-
-				// and|or
-				blockAdBlock.on(true, adBlockDetected).onNotDetected(adBlockNotDetected);
-			}
-
-			// Change the options
-			blockAdBlock.setOption('checkOnLoad', true);
-			// and|or
-			blockAdBlock.setOption({
-				debug: true,
-				checkOnLoad: true,
-				resetOnEnd: false
-			});
-			
-
-			function countdown() {
-				time--;
-
-				if (time == -1) {
-					window.clearInterval(timer);
-
-					document.getElementById("timer-div").style.visibility = "hidden";
-					document.getElementById("thanks").style.visibility = "visible";
-					document.getElementById("thanks").innerHTML = "Thanks for waiting";
-					document.getElementById("continue-button-div").style.visibility = "visible";
-					document.getElementById("continue-button-div").innerHTML = '<div id="continue-button" class="col-sm-4 cojkl-sm-offset-4 text-center center"><button class="donate-again btn-block hvr-wobble-top" onclick="window.location.href=`donate.php`">Continue</button></div>';
-				} else{
-					document.getElementById('skip').innerHTML = time;
-				}
-			}
-		</script>
-
-		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -111,58 +53,80 @@
 		  ga('send', 'pageview');
 		</script>
 
-		<!-- PopAds.net Popunder Code for www.clicks4change.com -->
-		<script type="text/javascript">
-		  var _pop = _pop || [];
-		  _pop.push(['siteId', 887947]);
-		  _pop.push(['minBid', 0.000000]);
-		  _pop.push(['popundersPerIP', 0]);
-		  _pop.push(['delayBetween', 0]);
-		  _pop.push(['default', false]);
-		  _pop.push(['defaultPerDay', 0]);
-		  _pop.push(['topmostLayer', false]);
-		  (function() {
-		    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
-		    var s = document.getElementsByTagName('script')[0]; 
-		    pa.src = '//c1.popads.net/pop.js';
-		    pa.onerror = function() {
-		      var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
-		      sa.src = '//c2.popads.net/pop.js';
-		      s.parentNode.insertBefore(sa, s);
-		    };
-		    s.parentNode.insertBefore(pa, s);
-		  })();
-		</script>
-	<!-- PopAds.net Popunder Code End -->
-
 	</head>
 
 	<body>
+	
+	<!-- Facebook shit -->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- Done with that shit -->
+
 		<div class="container-fluid bottom-buffer full-screen">
-			<div id="timer-div">
+
+			<div class="form-container">
 				<div class="row">
-					<div class="col-sm-6 col-sm-offset-3 text-center">
-						<h2 id="thanks">Your Patience</h2>
+					<div class="col-sm-10 col-sm-offset-1 title-box">
+						<div class="col-sm-4 col-sm-offset-4 text-center">
+							<h2 class="title">Choose a charity</h2>
+							<p class="sub-title">to help</p>
+						</div>
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="col-sm-6 col-sm-offset-3 text-center" id="continue-button-div">
-						<p class="timer" id="skip">5</p>
+					<div class="col-sm-10 col-sm-offset-1 menu">
+						<div class="col-sm-6 col-sm-offset-3 text-center">
+							<form action="donated.php" method="post" id="form">
+								<?php
+									include 'connection.php';
+
+									$query = 'SELECT * FROM charities';
+									$result = mysql_query($query);
+
+									while ($charity = mysql_fetch_array($result)) {
+										echo "<div class='row top-buffer radio-button-div'>";
+											echo "<input type='radio' class='' name='charity' id='" . $charity["Name"] . "' value='" . $charity["Name"] . "'/> " . $charity["Name"] . "";
+										echo "</div>";
+									}
+								?>
+						</div>
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="col-sm-6 col-sm-offset-3 text-center">
-						<h2>is your donation</h2>
+					<div class="col-sm-2 col-sm-offset-5 text-center">
+							<div class="row box-green top-large-buffer">
+								<button type="submit" class="donate-button btn-block hvr-underline-reveal hvr-pop"><span>Donate</span> <span class='glyphicon glyphicon-heart'></span></button>
+							</div>
 					</div>
+						</form>
+
 				</div>
 			</div>
+
 		</div>
 
-		<?php
-			$_SESSION["canDonate"] = True;
-		?>
+			<footer class="footer">
+				<div class="row-fluid">
+					<div class="col-sm-6">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.clicks4change.com/" data-text="I just helped someone by clicking a button. Every click can make a difference." data-hashtags="clicks4change">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					<div class="fb-share-button" style="float:left; margin-right:10px;" data-href="http://www.clicks4change.com/" data-layout="button_count"></div>
+					</div>
+
+					<div class="col-sm-6">
+						<p class="footer-desc"><a href="about.php" target="_blank" class="about">About</a> | <a href="http://goo.gl/forms/AMYB2ZWrKA" target="_blank" class="suggestion">Suggestions</a></p>
+					</div>
+				</div>
+			</footer>
+
 
 	</body>
 </html>

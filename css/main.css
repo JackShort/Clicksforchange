@@ -133,6 +133,11 @@ h2 {
     color: white;
 }
 
+.radio-button-div {
+	clear: left;
+	float:left;
+}
+
 .ghost-button {
 	background-color: black !important;
 	text-transform: uppercase;
