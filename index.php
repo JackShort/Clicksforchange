@@ -1,15 +1,16 @@
-<?php 
+ <?php 
 	//start session
 	session_start();
-
 	if ($_SESSION["donated"] == True) {
-		// header('Location: twice.php');
+		header('Location: twice.php');
 	}
 ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="propeller" content="f8f24efd687cf940f21c5b393da0e13b" />
+		<meta name="google-site-verification" content="po695k3_hlt1Ie5DYApFyaUox2VwZMBGYgUDgwbPn5M" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Clicks For Change</title>
 		
@@ -52,6 +53,30 @@
 		  ga('create', 'UA-68266810-1', 'auto');
 		  ga('send', 'pageview');
 		</script>
+
+		<!-- PopAds.net Popunder Code for www.clicks4change.com -->
+		<script type="text/javascript">
+		  var _pop = _pop || [];
+		  _pop.push(['siteId', 887947]);
+		  _pop.push(['minBid', 0.000000]);
+		  _pop.push(['popundersPerIP', 0]);
+		  _pop.push(['delayBetween', 0]);
+		  _pop.push(['default', false]);
+		  _pop.push(['defaultPerDay', 0]);
+		  _pop.push(['topmostLayer', false]);
+		  (function() {
+		    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+		    var s = document.getElementsByTagName('script')[0]; 
+		    pa.src = '//c1.popads.net/pop.js';
+		    pa.onerror = function() {
+		      var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
+		      sa.src = '//c2.popads.net/pop.js';
+		      s.parentNode.insertBefore(sa, s);
+		    };
+		    s.parentNode.insertBefore(pa, s);
+		  })();
+		</script>
+		<!-- PopAds.net Popunder Code End -->
 
 	</head>
 
