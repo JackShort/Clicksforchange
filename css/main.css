@@ -76,6 +76,14 @@ body {
 	font-size: 4.32vh;
 }
 
+.under-title {
+	color: rgb(80,80,80);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	float: left;
+	font-size: 2.32vh;
+}
+
 .about-title {
 	color: #FFFFFF;
 	font-family: 'Roboto', sans-serif;
@@ -209,7 +217,7 @@ h2 {
 */}
 
 .title-box {
-	height: 13.5vh;
+	height: 4.5vh;
 	margin-bottom: 2.88vh;
 	/*text-align: center;*/
 	vertical-align: middle;

@@ -109,8 +109,8 @@
 
 				<div class="row">
 					<div class="col-sm-10 col-sm-offset-1 menu">
+						<h3 class="under-title">Choose a charity to donate ad revenue to:</h3>
 						<div class="col-sm-6">
-							<h3 class="under-title">Choose a charity to donate ad revenue to</h3>
 							<form action="donated.php" method="post" id="form">
 								<?php
 									include 'connection.php';
