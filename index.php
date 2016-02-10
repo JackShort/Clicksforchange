@@ -47,7 +47,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
 
 		<!-- Roboto -->
-		<link href='https://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900' rel='stylesheet' type='text/css'>
 
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -103,16 +103,14 @@
 			<div class="form-container">
 				<div class="row">
 					<div class="col-sm-10 col-sm-offset-1 title-box">
-						<div class="col-sm-4 col-sm-offset-4 text-center">
-							<h2 class="title">Choose a charity</h2>
-							<p class="sub-title">to help</p>
-						</div>
+						<h2 class="title">Clicks4Change</h2>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-sm-10 col-sm-offset-1 menu">
-						<div class="col-sm-6 col-sm-offset-3 text-center">
+						<div class="col-sm-6">
+							<h3 class="under-title">Choose a charity to donate ad revenue to</h3>
 							<form action="donated.php" method="post" id="form">
 								<?php
 									include 'connection.php';

@@ -1,6 +1,6 @@
 * {
 	font-size: 100%;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto', sans-serif;
 }
 
 html,body{
@@ -15,14 +15,14 @@ html,body{
 
 body {
 	/*background-color: #/*26ACB4;*/
-	/*background-color: #222222;*/
+	background-color: #E8EEF8;
 	/*background-image: url("http://cdn29.us1.fansshare.com/images/tumblrbackgrounds/black-white-abstract-pattern-vector-line-drawing-graphic-pen-textile-pattern-vasare-nar-commission-summer-trend-contemporary-fashion-aztec-navajo-triangles-black-and-white-74471252.jpg");*/*/
-	background: url(../images/stardust_@2X.png) repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;	
-	height: 100%;
+	/*background: url(../images/stardust_@2X.png) repeat center center fixed; */
+	/*-webkit-background-size: cover;*/
+	/*-moz-background-size: cover;*/
+	/*-o-background-size: cover;*/
+	/*background-size: cover;	*/
+	/*height: 100%;*/
 }
 
 @media screen and (max-width: 800px) {
@@ -47,10 +47,10 @@ body {
 */
 
 .full-screen {
-	height: 100%;
+/*	height: 100%;
 	min-height: 100%;
-	/*background-color: #000000;*/
-	background-color: rgba(0, 0, 0, 0.45)
+*/	/*background-color: #000000;*/
+	/*background-color: rgba(0, 0, 0, 0.45)*/
 }
 
 .form-container {
@@ -69,15 +69,16 @@ body {
 }
 
 .title {
-	color: #8C8680;
-	font-family: 'Source Code Pro';
-	font-weight: 100;
+	color: rgb(80,80,80);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	float: left;
 	font-size: 4.32vh;
 }
 
 .about-title {
 	color: #FFFFFF;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 5.76vh;
 	text-align: center;
@@ -86,22 +87,21 @@ body {
 
 .sub-title {
 	color: #8C8680;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	font-size: 4.32vh;
 }
 
 h2 {
 	font-size: 8vh;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
 	color: #ffffff;
-	text-align: center;
 }
 
 .money {
 	font-size: 3.024vh;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
 	color: #3CC279;
 	text-align: center;
@@ -109,14 +109,14 @@ h2 {
 
 .timer {
 	font-size: 35vh;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
 	color: #FA3D79;
 }
 
 .continue {
 	font-size: 120pt;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
 	color: #F8F0DC;
 }
@@ -145,7 +145,7 @@ h2 {
 	padding: 0 !important;
 	height: 7vh;
 	font-size: 2.304vh;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
 	color: #FFFFFF;
 	border-style: solid;
@@ -165,7 +165,7 @@ h2 {
 	padding: 0 !important;
 	height: 7.2vh;
 	font-size: 2.304vh;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
 	color: #FA3D79;
 	border-style: solid;
@@ -182,7 +182,7 @@ h2 {
 	padding: 0 !important;
 	height: 7.2vh;
 	font-size: 2.304vh;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
 	color: #FFF;
 }
@@ -209,9 +209,9 @@ h2 {
 */}
 
 .title-box {
-	height: 18.5vh;
+	height: 13.5vh;
 	margin-bottom: 2.88vh;
-	text-align: center;
+	/*text-align: center;*/
 	vertical-align: middle;
 	/*fbackground-color: black;*/
 	margin-top: 2.88vh;
@@ -254,7 +254,7 @@ h2 {
 	padding: 0 !important;
 	height: 7.2vh;
 	font-size: 2.304vh;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
 	color: #FFFFFF;
 	border-style: solid;
@@ -266,7 +266,7 @@ h2 {
 	color: #FFF;
 	border-color: #FA3D79;
 	font-size: 2.304vh;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
 }
 
@@ -298,13 +298,13 @@ footer {
 
 .about {
 	color: #FFFFFF !important;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.728vh;
 }
 
 .suggestion {
 	color: #FFFFFF !important;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.728vh;
 }
 
@@ -312,7 +312,7 @@ footer {
 	margin-right: 1.44vh;
 	text-align: right;
 	color: #FFFFFF !important;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.728vh;
 }
 
@@ -329,7 +329,7 @@ footer {
 	margin-right: 1.44vh;
 	text-align: left;
 	color: #FFFFFF !important;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.728vh;
 }
 
