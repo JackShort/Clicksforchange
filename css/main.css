@@ -15,8 +15,8 @@ html,body{
 
 body {
 	/*background-color: #/*26ACB4;*/
-	background-color: #222222;
-	/*background-image: url("http://cdn29.us1.fansshare.com/images/tumblrbackgrounds/black-white-abstract-pattern-vector-line-drawing-graphic-pen-textile-pattern-vasare-nar-commission-summer-trend-contemporary-fashion-aztec-navajo-triangles-black-and-white-74471252.jpg");*/
+	/*background-color: #222222;*/
+	/*background-image: url("http://cdn29.us1.fansshare.com/images/tumblrbackgrounds/black-white-abstract-pattern-vector-line-drawing-graphic-pen-textile-pattern-vasare-nar-commission-summer-trend-contemporary-fashion-aztec-navajo-triangles-black-and-white-74471252.jpg");*/*/
 	background: url(../images/stardust_@2X.png) repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -69,7 +69,7 @@ body {
 }
 
 .title {
-	color: #FFFFFF;
+	color: #8C8680;
 	font-family: 'Source Code Pro';
 	font-weight: 100;
 	font-size: 4.32vh;
@@ -209,11 +209,11 @@ h2 {
 */}
 
 .title-box {
-	height: 18vh;
+	height: 18.5vh;
 	margin-bottom: 2.88vh;
 	text-align: center;
 	vertical-align: middle;
-	background-color: black;
+	/*fbackground-color: black;*/
 	margin-top: 2.88vh;
 }
 

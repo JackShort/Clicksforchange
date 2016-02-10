@@ -1,6 +1,8 @@
  <?php 
 	//start session
-	session_start();
+ 	if (!isset($_SESSION["donated"])) {
+ 		$_SESSION["donated"] = False;
+ 	}
 	if ($_SESSION["donated"] == True) {
 		header('Location: twice.php');
 	}
@@ -43,6 +45,9 @@
 
 		<!-- Source Code Pro Font -->
 		<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+
+		<!-- Roboto -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
 
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
